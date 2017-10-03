@@ -1,0 +1,177 @@
+body {
+	background-color: #000;
+}
+
+h1 {
+	color: white;
+	font-family: 'Megrim', cursive;
+	font-size: 38px;
+	display: inline-block;
+ 	margin-bottom: 20px;
+ 	margin-left: 25px;
+ }
+
+h2, p, li {
+	color: #fff;
+	font-family: arial;
+	font-size: 14px;
+}
+
+h2 {
+	font-size: 21px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+li {
+	list-style-type: square;
+	margin: 0 0 10px 20px;
+}
+
+li:last-child {
+	margin-bottom: 0px;
+}
+
+#wrapper {
+	min-width: 1090px;
+}
+
+#leftPane {
+	background-color: #000;
+	float: left;
+	padding-top: 25px;
+	width: 325px;
+}
+
+#rightPane{
+	background-color: #000;
+	background-image: url("../images/gameBG.jpeg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000;
+	display: inline-block;
+	float: left;
+	width: 70%;
+	height: 100vh;
+}
+
+#instructions {
+	background-color: #333;
+	border-radius: 35px 0;
+	display: inline-block;
+	margin-left: 20px;
+	padding: 20px 20px;
+	width: 250px;
+}
+
+#output {
+	background-color: #666;
+	color: #fff;
+	display: block;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 10px 0 0 20px;
+	padding: 20px 20px;
+	text-align: center;
+	width: 250px;
+}
+
+#target {
+	background-color: #444;
+	display: inline-block;
+	float: left;
+ 	margin-right: 20px;
+ 	padding: 10px 0;
+	width: 115px;
+}
+
+#randNum {
+	background-color: white;
+	float: left;
+	height: 80px;
+	margin-right: 20px;
+	width: 115px;
+}
+
+#powerLevel {
+	background-color: #444;
+	color: white;
+	display: inline-block;
+	padding: 10px 0;
+	width: 115px;
+}
+
+#total {
+	background-color: white;
+	float: left;
+	height: 80px;
+	width: 115px;
+}
+
+#scoreboard {
+	background-color: #444;
+	display: inherit;
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 115px;
+}
+
+#outcomes {
+	background-color: white;
+	margin: 0 auto;
+	height: 80px;
+	width: 115px;
+}
+
+#input {
+	 height: 125px;
+	 margin: 20% 0 0 20%;
+}
+
+.crystal {
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+.crystal:nth-child(1) {
+	margin-top: 0px;
+}
+
+.crystal:nth-child(2) {
+	margin-top: 20px;
+}
+
+.crystal:nth-child(4) {
+	margin-top: 40px;
+}
+
+
+.crystal-1 {
+	
+}
+
+.crystal-2 {
+
+}
+.crystal-3 {
+
+}
+.crystal-4 {
+
+}
+.clearfix:after {
+	clear: both;
+	display: block; 
+	content: ".";
+	visibility: hidden;
+	height: 0;
+
+}
+
+#break {
+	display: block;
+	margin-top: 15px;
+}
