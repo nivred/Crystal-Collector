@@ -6,47 +6,48 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-	<script src="game.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 	<div id="wrapper">
 		<div id="leftPane">
-			<h1>Crystal Collector</h1>
 			<section id="instructions">
 				<h2>How to Play</h2>
 				<ul>
 					<li>A random target number is given at the start of each game</li>
-					<li>Each crystal holds a hidden value</li>
-					<li>Click any crystal at a time until you match the target random number</li>
+					<li>Each crystal holds a hidden value and changes with every new game</li>
+					<li>Click any crystal at a time to add value to your total</li>
 					<li>If you match the target number you win, if you go over you lose</li>
 				</ul>
 			</section> <!-- #instructions -->
 			
 			<section id="output">
-				<div id="target">Target Score</div>
-				<div id="randNum"></div>
-				<div id="powerLevel">Power Level</div>
-				<div id="total"></div>
-
-				<div class="clearfix"></div>
-
-				<div id="break" class="clearfix">
-					<div id="scoreboard">Scoreboard</div>
-					<div id="outcomes"></div>
+				<div id="randNum" class="box"></div>
+				<div id="numTotal" class="box">
+					<!-- <div id="total" class="title">Total</div> -->
+				</div>
+				<div id="numWins" class="box">
+					<!-- <div id="wins" class="title">Wins</div> -->
+				</div>
+				<div id="numLosses" class="box">
+					<!-- <div id="losses" class="title">Losses</div> -->
 				</div>
 			</section> <!-- #output -->
 		</div> <!-- #leftPane -->
 	
 		<div id="rightPane">
-			<section id="input">
-				<div class="crystal crystal-1"><img src="assets/images/crystalBlue.png" /></div>
-				<div class="crystal crystal-2"><img src="assets/images/crystalRed.png" /></div>
-				<div class="crystal crystal-3"><img src="assets/images/crystalYellow.png" /></div>
-				<div class="crystal crystal-4"><img src="assets/images/crystalGreen.png" /></div>
-			</section> <!-- #input -->
+			<h1>Crystal Collector</h1>
+
+			<section id="crystals">
+<!-- 				<div class="crystal crystal-image0"><img src="assets/images/crystalBlue.png" /></div>
+				<div class="crystal crystal-image1"><img src="assets/images/crystalRed.png" /></div>
+				<div class="crystal crystal-image2"><img src="assets/images/crystalYellow.png" /></div>
+				<div class="crystal crystal-image3"><img src="assets/images/crystalGreen.png" /></div>
+ -->			</section> <!-- #input -->
 		</div> <!-- #rightPane -->
 
 	</div> <!-- #wrapper -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
 </body>
 </html>
