@@ -46,7 +46,7 @@ li:last-child {
 
 #rightPane{
 	background-color: #000;
-	background-image: url("../images/gameBG.jpeg");
+	background-image: url("../images/gameBG.png");
 	background-position: left 0px top 100px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -83,100 +83,75 @@ li:last-child {
 .title {
 	background-color: #444;
 	color: #fff;
+	float: left;
 	font-size: 16px;
- 	margin-right: 15px;
+ 	margin-right: 20px;
  	padding: 10px 0;
 	width: 115px;
-	position: relative;
-	left: 0px;
+}
+
+.title:nth-child(even) {
+	margin-right: 0px;
 }
 
 .box {
 	background-color: #fff;
 	color: red;
 	display: inline-block;
+	float: left;
 	font-size: 48px;
 	height: 60px;
-	left: 0;
 	margin-bottom: 20px;
-	margin-right: 15px;
+	margin-right: 20px;
 	padding-top: 10px;
-	position: relative;
 	text-align: center;
 	width: 115px;
 }
 
 .box:nth-child(even) {
 	margin-right: 0;
-	position: relative;
-	right: 135px;
- }
-
-#target {
 }
 
 #randNum {
-	color: red;
-	font-size: 48px;
-	text-align: center;
-}
-
-#total {
+	color: green;
 }
 
 #numTotal {
-}
+	color: gold;
 
-#wins {
 }
 
 #numWins {
-}
-
-#losses {
+	color: blue;	
 }
 
 #numLosses {
+	color: red;
 }
-
 
 #crystals {
 	 height: 125px;
 	 margin: 25% 0 0 20%;
 }
 
-.crystal {
+.crystal-image {
 	float: left;
 	height: 100px;
 	width: 100px;
 }
 
-.crystal:nth-child(1) {
+.crystal-image:nth-child(1) {
 	margin-top: 0px;
 }
 
-.crystal:nth-child(2) {
+.crystal-image:nth-child(2) {
 	margin-top: 20px;
 }
 
-.crystal:nth-child(4) {
+.crystal-image:nth-child(4) {
 	margin-top: 40px;
 }
 
-
-.crystal-1 {
-	
-}
-
-.crystal-2 {
-
-}
-.crystal-3 {
-
-}
-.crystal-4 {
-
-}
 .clearfix:after {
 	clear: both;
 	display: block; 

@@ -75,3 +75,21 @@ $(".numTotal").text("Total");
 $("#numWins").text(userWins);
 $("#numLosses").html(userLosses);
 
+$(".crystal-image").on("hover", function() {
+$(".crystal-image").animate({ height: "120px", width: "120px" });
+});
+
+$(".crystal-image").on("out", function() {
+$(".crystal-image").animate({ height: "100px", width: "100px" });
+});
+
+$(document).ready(function(){
+    $(".crystal-image").hover(function(){
+        $(this).css("height", "120px");
+        $(this).css("width", "120px");
+
+        }, function(){
+        $(this).css("height", "100px");
+        $(this).css("width", "100px");
+    });
+});
