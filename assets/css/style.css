@@ -33,7 +33,10 @@ li:last-child {
 }
 
 #wrapper {
-	min-width: 1090px;
+	display: inline-block;
+	margin: 0 auto;
+	min-width: 1024px;
+	max-width: 1280px;
 	padding-top: 20px;
 }
 
@@ -49,13 +52,13 @@ li:last-child {
 	background-image: url("../images/gameBG.png");
 	background-position: left 0px top 100px;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-color: #000;
 	display: inline-block;
 	float: left;
-	padding-top: 20px;
-	width: 70%;
 	height: 100vh;
+	padding-top: 20px;
+	width: 699px;
 }
 
 #instructions {
@@ -118,7 +121,6 @@ li:last-child {
 
 #numTotal {
 	color: gold;
-
 }
 
 #numWins {
@@ -131,7 +133,7 @@ li:last-child {
 
 #crystals {
 	 height: 125px;
-	 margin: 25% 0 0 20%;
+	 margin: 20% 0 0 20%;
 }
 
 .crystal-image {
@@ -150,18 +152,4 @@ li:last-child {
 
 .crystal-image:nth-child(4) {
 	margin-top: 40px;
-}
-
-.clearfix:after {
-	clear: both;
-	display: block; 
-	content: ".";
-	visibility: hidden;
-	height: 0;
-
-}
-
-#break {
-	display: block;
-	margin-top: 15px;
 }
