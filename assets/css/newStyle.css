@@ -1,0 +1,89 @@
+body {
+  background-color: #000;
+  color: aliceblue;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Megrim", cursive;
+  font-size: 48px;
+  margin-top: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+#instructions {
+  font-size: 95%;
+}
+.card {
+  background-color: transparent;
+  border: 1px solid rgba(245, 245, 245, 0.5);
+  padding: 0;
+}
+.card-header {
+  background-color: rgba(245, 245, 245, 0.25);
+}
+.card-body {
+  padding: 0.5rem;
+}
+.card span {
+  font-size: 2rem;
+}
+#bg {
+  background-image: url("../images/gameBG.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 350px;
+}
+#crystals {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  height: 120px;
+  margin-top: 80px;
+  vertical-align: middle;
+}
+.crystal-image {
+  height: 90px;
+  width: auto;
+}
+.crystal-image0 {
+  margin-top: 5px;
+}
+.crystal-image1 {
+  margin-top: 25px;
+}
+.crystal-image2 {
+  margin-top: 15px;
+}
+.crystal-image3 {
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 520px) {
+  h1 {
+    line-height: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .lead {
+    font-size: 100%;
+  }
+  #instructions {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .card-header h5 {
+    font-size: 90%;
+  }
+}
