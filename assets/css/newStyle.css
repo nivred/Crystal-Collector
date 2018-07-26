@@ -66,7 +66,10 @@ h6 {
 .crystal-image3 {
   margin-top: 35px;
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 580px) {
+  .container {
+    padding: 0;
+  }
   h1 {
     line-height: 2.5rem;
     margin-bottom: 10px;
@@ -75,7 +78,10 @@ h6 {
     font-size: 100%;
   }
   #instructions {
-    font-size: 70%;
+    font-size: 80%;
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
   }
 }
 @media screen and (max-width: 380px) {
